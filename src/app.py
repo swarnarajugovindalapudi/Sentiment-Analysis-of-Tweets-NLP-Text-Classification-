@@ -3,6 +3,10 @@ import joblib
 import re
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+# (The rest of your code like stop_words = set(...) continues below this)
 
 # 1. Setup the text cleaning tools
 stop_words = set(stopwords.words('english'))
