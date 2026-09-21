@@ -6,7 +6,8 @@ from nltk.corpus import stopwords
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
-# (The rest of your code like stop_words = set(...) continues below this)
+nltk.download('punkt_tab')
+
 
 # 1. Setup the text cleaning tools
 stop_words = set(stopwords.words('english'))
