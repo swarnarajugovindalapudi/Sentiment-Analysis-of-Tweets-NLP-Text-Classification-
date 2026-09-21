@@ -1,5 +1,9 @@
 # ✈️ Airline Tweet Sentiment Analysis
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://swarna-raju-sentiment-ai.streamlit.app/)
+
+🔗 **Live Application:** [Click here to try the Sentiment Analyzer](https://swarna-raju-sentiment-ai.streamlit.app/)
+
 An end-to-end Natural Language Processing (NLP) text classification project that predicts whether a tweet regarding an airline is positive, negative, or neutral. 
 
 ## 🧠 Project Architecture
@@ -19,4 +23,5 @@ An end-to-end Natural Language Processing (NLP) text classification project that
 3. Navigate to the root folder and run the Streamlit app:
    ```bash
    streamlit run src/app.py
+   docs: add live streamlit demo link
    
